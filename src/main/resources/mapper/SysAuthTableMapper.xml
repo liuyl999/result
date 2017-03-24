@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.liuyl.dao.SysAuthTableMapper" >
+  <resultMap id="BaseResultMap" type="com.liuyl.entity.SysAuthTable" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="table_id" property="tableId" jdbcType="VARCHAR" />
+    <result column="table_type" property="tableType" jdbcType="INTEGER" />
+    <result column="table_name" property="tableName" jdbcType="VARCHAR" />
+    <result column="table_show_name" property="tableShowName" jdbcType="VARCHAR" />
+    <result column="table_state" property="tableState" jdbcType="INTEGER" />
+    <result column="add_time" property="addTime" jdbcType="TIMESTAMP" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

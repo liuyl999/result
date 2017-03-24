@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.liuyl.dao.SysOrgMapper" >
+  <resultMap id="BaseResultMap" type="com.liuyl.entity.SysOrg" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="org_id" property="orgId" jdbcType="VARCHAR" />
+    <result column="org_name" property="orgName" jdbcType="VARCHAR" />
+    <result column="parent_id" property="parentId" jdbcType="VARCHAR" />
+    <result column="org_no" property="orgNo" jdbcType="VARCHAR" />
+    <result column="parent_no" property="parentNo" jdbcType="VARCHAR" />
+    <result column="org_grade" property="orgGrade" jdbcType="INTEGER" />
+    <result column="org_level" property="orgLevel" jdbcType="INTEGER" />
+    <result column="org_state" property="orgState" jdbcType="INTEGER" />
+    <result column="is_leaf" property="isLeaf" jdbcType="INTEGER" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+    <result column="add_time" property="addTime" jdbcType="TIMESTAMP" />
+    <result column="ref_lq" property="refLq" jdbcType="TINYINT" />
+  </resultMap>
+</mapper>

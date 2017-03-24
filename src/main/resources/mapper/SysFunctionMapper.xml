@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.liuyl.dao.SysFunctionMapper" >
+  <resultMap id="BaseResultMap" type="com.liuyl.entity.SysFunction" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="func_id" property="funcId" jdbcType="VARCHAR" />
+    <result column="func_name" property="funcName" jdbcType="VARCHAR" />
+    <result column="func_type" property="funcType" jdbcType="INTEGER" />
+    <result column="func_code" property="funcCode" jdbcType="VARCHAR" />
+    <result column="table_id" property="tableId" jdbcType="VARCHAR" />
+    <result column="parent_id" property="parentId" jdbcType="VARCHAR" />
+    <result column="func_url" property="funcUrl" jdbcType="VARCHAR" />
+    <result column="func_icon" property="funcIcon" jdbcType="VARCHAR" />
+    <result column="func_type_code" property="funcTypeCode" jdbcType="VARCHAR" />
+    <result column="func_state" property="funcState" jdbcType="INTEGER" />
+    <result column="func_order" property="funcOrder" jdbcType="INTEGER" />
+    <result column="func_model" property="funcModel" jdbcType="VARCHAR" />
+    <result column="is_leaf" property="isLeaf" jdbcType="INTEGER" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+    <result column="add_time" property="addTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

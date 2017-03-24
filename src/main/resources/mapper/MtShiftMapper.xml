@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.liuyl.dao.MtShiftMapper" >
+  <resultMap id="BaseResultMap" type="com.liuyl.entity.MtShift" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="code" property="code" jdbcType="VARCHAR" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="leader" property="leader" jdbcType="VARCHAR" />
+    <result column="phone" property="phone" jdbcType="VARCHAR" />
+    <result column="add_org_id" property="addOrgId" jdbcType="VARCHAR" />
+    <result column="add_org_no" property="addOrgNo" jdbcType="VARCHAR" />
+    <result column="add_user_id" property="addUserId" jdbcType="VARCHAR" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+    <result column="add_time" property="addTime" jdbcType="TIMESTAMP" />
+    <result column="accounting_obj_id" property="accountingObjId" jdbcType="BIGINT" />
+  </resultMap>
+</mapper>

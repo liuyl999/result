@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.liuyl.dao.MtOutstockMaterialInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.liuyl.entity.MtOutstockMaterialInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="outstock_id" property="outstockId" jdbcType="BIGINT" />
+    <result column="instock_material_info_id" property="instockMaterialInfoId" jdbcType="BIGINT" />
+    <result column="send_num" property="sendNum" jdbcType="DECIMAL" />
+    <result column="single_price" property="singlePrice" jdbcType="DECIMAL" />
+    <result column="price" property="price" jdbcType="DECIMAL" />
+    <result column="send_person_name" property="sendPersonName" jdbcType="VARCHAR" />
+    <result column="shift_id" property="shiftId" jdbcType="BIGINT" />
+    <result column="shift_person_id" property="shiftPersonId" jdbcType="BIGINT" />
+    <result column="out_type" property="outType" jdbcType="VARCHAR" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+    <result column="add_time" property="addTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

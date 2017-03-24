@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.liuyl.dao.MtShiftAllotMapper" >
+  <resultMap id="BaseResultMap" type="com.liuyl.entity.MtShiftAllot" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="code" property="code" jdbcType="VARCHAR" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="from_shift_id" property="fromShiftId" jdbcType="BIGINT" />
+    <result column="from_shift_person_id" property="fromShiftPersonId" jdbcType="BIGINT" />
+    <result column="to_shift_id" property="toShiftId" jdbcType="BIGINT" />
+    <result column="to_shift_person_id" property="toShiftPersonId" jdbcType="BIGINT" />
+    <result column="add_org_id" property="addOrgId" jdbcType="VARCHAR" />
+    <result column="add_org_no" property="addOrgNo" jdbcType="VARCHAR" />
+    <result column="add_user_id" property="addUserId" jdbcType="VARCHAR" />
+    <result column="create_date" property="createDate" jdbcType="TIMESTAMP" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+    <result column="add_time" property="addTime" jdbcType="TIMESTAMP" />
+    <result column="state" property="state" jdbcType="TINYINT" />
+  </resultMap>
+</mapper>

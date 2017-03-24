@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.liuyl.dao.MtSupplierResourceDatabaseMapper" >
+  <resultMap id="BaseResultMap" type="com.liuyl.entity.MtSupplierResourceDatabase" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="code" property="code" jdbcType="VARCHAR" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="establish_date" property="establishDate" jdbcType="TIMESTAMP" />
+    <result column="register_money" property="registerMoney" jdbcType="VARCHAR" />
+    <result column="business_nature" property="businessNature" jdbcType="VARCHAR" />
+    <result column="level" property="level" jdbcType="VARCHAR" />
+    <result column="business_range" property="businessRange" jdbcType="VARCHAR" />
+    <result column="address" property="address" jdbcType="VARCHAR" />
+    <result column="duty_no" property="dutyNo" jdbcType="VARCHAR" />
+    <result column="legal_present" property="legalPresent" jdbcType="VARCHAR" />
+    <result column="contract" property="contract" jdbcType="VARCHAR" />
+    <result column="contract_telphone" property="contractTelphone" jdbcType="VARCHAR" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+    <result column="add_time" property="addTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

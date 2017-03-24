@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.liuyl.dao.SysAuthMenuMapper" >
+  <resultMap id="BaseResultMap" type="com.liuyl.entity.SysAuthMenu" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="auth_menu_id" property="authMenuId" jdbcType="VARCHAR" />
+    <result column="func_id" property="funcId" jdbcType="VARCHAR" />
+    <result column="obj_id" property="objId" jdbcType="VARCHAR" />
+    <result column="obj_type" property="objType" jdbcType="INTEGER" />
+    <result column="auth_menu_state" property="authMenuState" jdbcType="INTEGER" />
+    <result column="org_no" property="orgNo" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

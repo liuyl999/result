@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.liuyl.dao.MtRefOutBillMapper" >
+  <resultMap id="BaseResultMap" type="com.liuyl.entity.MtRefOutBill" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="GUID" property="guid" jdbcType="VARCHAR" />
+    <result column="projectCode" property="projectcode" jdbcType="VARCHAR" />
+    <result column="GYSBM" property="gysbm" jdbcType="VARCHAR" />
+    <result column="LX" property="lx" jdbcType="VARCHAR" />
+    <result column="LX_YT" property="lxYt" jdbcType="VARCHAR" />
+    <result column="BDBH" property="bdbh" jdbcType="VARCHAR" />
+    <result column="BZ" property="bz" jdbcType="VARCHAR" />
+    <result column="STATUS" property="status" jdbcType="INTEGER" />
+    <result column="CPH" property="cph" jdbcType="VARCHAR" />
+    <result column="DJLY" property="djly" jdbcType="VARCHAR" />
+    <result column="PZ" property="pz" jdbcType="DECIMAL" />
+    <result column="MZ" property="mz" jdbcType="DECIMAL" />
+    <result column="JZ" property="jz" jdbcType="DECIMAL" />
+    <result column="ZHXGSJ" property="zhxgsj" jdbcType="VARCHAR" />
+    <result column="CPSJ" property="cpsj" jdbcType="VARCHAR" />
+    <result column="CMSJ" property="cmsj" jdbcType="VARCHAR" />
+    <result column="CCSJ" property="ccsj" jdbcType="VARCHAR" />
+    <result column="DWGC" property="dwgc" jdbcType="VARCHAR" />
+    <result column="GBY" property="gby" jdbcType="VARCHAR" />
+    <result column="PCJG" property="pcjg" jdbcType="VARCHAR" />
+    <result column="SYBW" property="sybw" jdbcType="VARCHAR" />
+    <result column="YSDJBH" property="ysdjbh" jdbcType="VARCHAR" />
+    <result column="Timestamp" property="timestamp" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

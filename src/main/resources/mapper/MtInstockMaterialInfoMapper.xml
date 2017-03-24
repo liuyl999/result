@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.liuyl.dao.MtInstockMaterialInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.liuyl.entity.MtInstockMaterialInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="instock_id" property="instockId" jdbcType="BIGINT" />
+    <result column="material_dic_id" property="materialDicId" jdbcType="BIGINT" />
+    <result column="send_num" property="sendNum" jdbcType="DECIMAL" />
+    <result column="receive_num" property="receiveNum" jdbcType="DECIMAL" />
+    <result column="single_price" property="singlePrice" jdbcType="DECIMAL" />
+    <result column="price" property="price" jdbcType="DECIMAL" />
+    <result column="supplier_res_id" property="supplierResId" jdbcType="BIGINT" />
+    <result column="factory" property="factory" jdbcType="VARCHAR" />
+    <result column="inspector" property="inspector" jdbcType="VARCHAR" />
+    <result column="quality" property="quality" jdbcType="VARCHAR" />
+    <result column="cred_code" property="credCode" jdbcType="VARCHAR" />
+    <result column="rcv_dept_id" property="rcvDeptId" jdbcType="BIGINT" />
+    <result column="source" property="source" jdbcType="TINYINT" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+    <result column="stock_num" property="stockNum" jdbcType="DECIMAL" />
+  </resultMap>
+</mapper>

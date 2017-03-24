@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.liuyl.dao.SysAuthTableFieldMapper" >
+  <resultMap id="BaseResultMap" type="com.liuyl.entity.SysAuthTableField" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="field_id" property="fieldId" jdbcType="VARCHAR" />
+    <result column="table_id" property="tableId" jdbcType="VARCHAR" />
+    <result column="field_name" property="fieldName" jdbcType="VARCHAR" />
+    <result column="field_show_name" property="fieldShowName" jdbcType="VARCHAR" />
+    <result column="field_type" property="fieldType" jdbcType="INTEGER" />
+    <result column="field_value" property="fieldValue" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

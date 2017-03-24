@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.liuyl.dao.WfReModelFunctionMapper" >
+  <resultMap id="BaseResultMap" type="com.liuyl.entity.WfReModelFunction" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="func_id" property="funcId" jdbcType="VARCHAR" />
+    <result column="model_id" property="modelId" jdbcType="VARCHAR" />
+    <result column="model_key" property="modelKey" jdbcType="VARCHAR" />
+    <result column="model_state" property="modelState" jdbcType="INTEGER" />
+    <result column="add_user_id" property="addUserId" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

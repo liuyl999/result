@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.liuyl.dao.MtProjectTotalDesignDetailMapper" >
+  <resultMap id="BaseResultMap" type="com.liuyl.entity.MtProjectTotalDesignDetail" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="project_total_design_id" property="projectTotalDesignId" jdbcType="BIGINT" />
+    <result column="material_dictionary_id" property="materialDictionaryId" jdbcType="BIGINT" />
+    <result column="change_num" property="changeNum" jdbcType="REAL" />
+    <result column="design_num" property="designNum" jdbcType="REAL" />
+    <result column="total_num" property="totalNum" jdbcType="REAL" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+    <result column="add_time" property="addTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>
