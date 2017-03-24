@@ -10,7 +10,9 @@ import org.springframework.stereotype.Component;
 import java.lang.reflect.Method;
 
 /**
- * Created by liuyl on 2017-3-24.
+ * @Author liuyl
+ * @Decription
+ * @Date 2017-3-24
  */
 @Aspect
 @Component
@@ -21,7 +23,7 @@ public class RequestInterceptor {
      * @Author: liuyl
      * @Decription:
      * @Date: 14:25 2017-3-24
-    */
+     */
     @Pointcut(value = "@annotation(com.liuyl.annotation.LogAround)")
     public void getRequestMappingMethods() {
 
@@ -40,5 +42,4 @@ public class RequestInterceptor {
         }
         return o;
     }
-
 }
