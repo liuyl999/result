@@ -1,14 +1,13 @@
 package com.liuyl.controller;
 
+import com.liuyl.annotation.LogAround;
 import com.liuyl.dao.SysUserMapper;
-import com.liuyl.entity.SysUser;
 import org.apache.commons.logging.Log;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
@@ -20,6 +19,8 @@ import java.util.List;
 @Controller
 public class SimpleController {
 
+    private Logger logger = LogManager.getLogger(SimpleController.class);
+
     @Autowired
     private SysUserMapper sysUserMapper;
 
@@ -30,9 +31,10 @@ public class SimpleController {
         return mv;
     }
 
+    @LogAround
     @RequestMapping("/try")
     public String toAaa(){
-        List<SysUser> userList = sysUserMapper.selectAll();
+        logger.info("fsafsafsfsfaafsfafsfaf");
         return "aaa";
     }
 
